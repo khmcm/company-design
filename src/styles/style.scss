@@ -8,7 +8,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: url(../images/bg.jpg) no-repeat center fixed;
+    background: url(../images/bg.webp) no-repeat center fixed;
     background-size: cover;
     filter: brightness(0.4);
     overflow: hidden;
@@ -403,6 +403,11 @@ body {
     }
     .card-container > .card.popular {
         transform: scale(1.0);
+    }
+}
+@media only screen and (min-width: 1367px) {
+    .menu-icon {
+        display: none;
     }
 }
 
